@@ -13,7 +13,7 @@
 5. In the assembly wizard, you need to upload a BOM and CPL file:
 BOM file is: Electronics\PCB Components\ESPkamstrup-BOM-JLCPCB.csv
 CPL file is: Electronics\PCB Components\ESPkamstrup-all-pos-JLCPCB.csv
-6. When you press ```Process BOM % CPL```, you will get a warning that the CPL file is missing some data: This is expected, and you can ignore it. The missing parts are the IR LEDs, header pins and D1 Mini. The can be soldered by hand.
+6. When you press ```Process BOM & CPL```, you will get a warning that the CPL file is missing some data: This is expected, and you can ignore it. The missing parts are the IR LEDs, header pins and D1 Mini. The can be soldered by hand.
 7. Check that the components are matched correctly. If not, create a issue on the repository with a description of the problem.
 8. In the Component Placements tab, check that all components are placed correctly. The transistors have 3 legs which should line up with the 3 pads on the PCB.
 9. Finish the order and wait for the PCBs to arrive.
